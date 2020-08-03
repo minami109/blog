@@ -18,3 +18,5 @@ Route::get('/', function () {
 */
 
 Route::get('/', 'ArticleController@index');
+Route::get('create', 'ArticleController@create');
+Route::post('create', 'ArticleController@store');
